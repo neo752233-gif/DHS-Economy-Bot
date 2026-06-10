@@ -1,5 +1,6 @@
 const { Client, GatewayIntentBits, Collection, SlashCommandBuilder, REST, Routes, EmbedBuilder } = require('discord.js');
-const db = require('quick.db');
+const { QuickDB } = require('quick.db');
+const db = new QuickDB();
 require('dotenv').config();
 
 const client = new Client({ 
