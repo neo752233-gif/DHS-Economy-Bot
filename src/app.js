@@ -379,9 +379,6 @@ try {
   logger.error('Fatal error during bot startup:', error);
   process.exit(1);
 }
-const channelName = "something";
-...
-const channelName = message.channel.name; // <-- change this one
 
 export default TitanBot;
 
